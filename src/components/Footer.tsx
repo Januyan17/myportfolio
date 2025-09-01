@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h3 className="text-xl font-bold text-gradient mb-4">
-              Your Name
+              Januyan
             </h3>
             <p className="text-muted-foreground">
               Full Stack Developer passionate about creating innovative solutions 
