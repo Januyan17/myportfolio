@@ -19,7 +19,7 @@ const Skills = () => {
     {
       category: "Frontend",
       icon: <Code className="h-8 w-8" />,
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js"]
+      technologies: ["React", "TypeScript", "Vue.js", "Next.js"]
     },
     {
       category: "Backend",
@@ -29,12 +29,12 @@ const Skills = () => {
     {
       category: "Database",
       icon: <Database className="h-8 w-8" />,
-      technologies: ["MongoDB", "PostgreSQL", "MySQL", "Firebase"]
+      technologies: ["MongoDB", "PostgreSQL", "MySQL", "Firestore"]
     },
     {
       category: "Cloud & DevOps",
       icon: <Globe className="h-8 w-8" />,
-      technologies: ["AWS", "Google Cloud", "Jenkins", "Sentry"]
+      technologies: ["AWS", "Google Cloud", "Jenkins", "Sentry" , 'Firebase' , 'SuperBase']
     },
     {
       category: "Fintech",
@@ -42,14 +42,14 @@ const Skills = () => {
       technologies: ["Payment APIs", "Security", "Biometrics", "Analytics"]
     },
     {
-      category: "Tools & Frameworks",
+      category: "Tools & Libraries",
       icon: <Layers className="h-8 w-8" />,
-      technologies: ["Jira", "VS Code", "Figma", "Postman"]
+      technologies: ["Jira", "Trello", "Figma", "Postman",'MUI , RadixUI , ShadcnUI']
     },
     {
       category: "Version Control",
       icon: <GitBranch className="h-8 w-8" />,
-      technologies: ["Git", "GitHub", "GitLab", 'GH Actions']
+      technologies: ["Git", "GitHub", "GitLab", 'BitBucket']
     }
   ];
 
