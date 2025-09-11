@@ -7,6 +7,16 @@ const Hero = () => {
     document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const downloadResume = () => {
+    // Create a link element to trigger download
+    const link = document.createElement('a');
+    link.href = '/Seralagan_Januyan_Resume.pdf';
+    link.download = 'Seralagan_Januyan_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -52,6 +62,7 @@ const Hero = () => {
               variant="outline" 
               className="btn-outline-glow px-8 py-3 text-lg"
               size="lg"
+              onClick={downloadResume}
             >
               <Download className="mr-2 h-5 w-5" />
               Download CV

@@ -1,5 +1,5 @@
 import { GraduationCap, MapPin, Calendar } from "lucide-react";
-import profilePhoto from "@/assets/profile-pic-2.png";
+import profilePhoto from "@/assets/janu-2.png";
 
 const About = () => {
   return (
